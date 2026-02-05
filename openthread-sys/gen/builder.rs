@@ -192,6 +192,7 @@ impl OpenThreadBuilder {
             .define("OT_ECDSA", "ON")
             .define("OT_PING_SENDER", "ON")
             // Do not change from here below
+            .define("OT_EXTERNAL_MBEDTLS", "mbedtls")
             .define("OT_LOG_OUTPUT", "PLATFORM_DEFINED")
             .define("OT_PLATFORM", "external")
             .define("OT_SETTINGS_RAM", "OFF")
